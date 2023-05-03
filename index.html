@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- REMIX ICONS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
-    />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
 
     <!-- CSS -->
     <link rel="stylesheet" 
@@ -58,7 +56,7 @@
                 <div class="dropdown__content">
                   <div class="dropdown__group">
                     <div class="dropdown__icon">
-                        <i class="ri-flashlight-line"></i>
+                      <ion-icon name="flower-outline"></ion-icon>
                     </div>
 
                     <span class="dropdown__title">Mais Visualizados</span>
@@ -84,7 +82,7 @@
 
                   <div class="dropdown__group">
                     <div class="dropdown__icon">
-                      <i class="ri-heart-3-line"></i>
+                      <ion-icon name="bug-outline"></ion-icon>
                     </div>
 
                     <span class="dropdown__title">Cursos Populares</span>
@@ -110,7 +108,7 @@
 
                   <div class="dropdown__group">
                     <div class="dropdown__icon">
-                      <i class="ri-health-book-line"></i>
+                      <ion-icon name="leaf-outline"></ion-icon>
                         
                     </div>
 
@@ -137,7 +135,7 @@
 
                   <div class="dropdown__group">
                     <div class="dropdown__icon">
-                      <i class="ri-file-paper-2-line"></i>
+                      <ion-icon name="rainy-outline"></ion-icon>
                         
                     </div>
 
@@ -158,43 +156,6 @@
               </div>
             </li>
 
-            <!-- DROPDOWN 2 -->
-            <li class="dropdown__item">
-              <div class="nav__link dropdown__button">
-                Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-              </div>
-
-              <div class="dropdown__container">
-                <div class="dropdown__content">
-                  <div class="dropdown__group">
-                    <div class="dropdown__icon">
-
-                    </div>
-
-                    <span class="dropdown__title"></span>
-
-                    <ul class="dropdown__list">
-                      <li>
-                        <a href="#" class="dropdown__link"></a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="dropdown__link"></a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="dropdown__link"></a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="dropdown__link"></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-
             <li>
               <a href="#" class="nav__link">Preço</a>
             </li>
@@ -210,27 +171,13 @@
 
         <li class="dropdown__item">
           <a href="#" class="nav__user">
-            <i class="ri-user-line"></i>
+            <ion-icon name="person-sharp"></ion-icon>
           </a>
 
           <div class="dropdown__container">
             <div class="dropdown__content">
-              <div class="dropdown__group">
+              <div class="dropdown__usergroup">
 
-                <span class="dropdown__usertitle">Registrar-se</span>
-
-                <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link">E-mail</a>
-                  </li>
-                  <input type="text" id="username" name="username">
-
-                  <li>
-                    <a href="#" class="dropdown__link">Senha</a>
-                  </li>
-                  <input type="number" id="userpassword" name="password">
-                  
-                </ul>
               </div>
             </div>
           </div>
@@ -238,6 +185,8 @@
 
       </nav>
     </header>
+
+    <img src="/assets/img/fotoinicialpagweb.png">
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
