@@ -148,6 +148,10 @@ a {
   transition: color 0.3s;
 }
 
+.nav__user i {
+  font-size: 1.25rem;
+}
+
 .nav__user:hover {
   color: var(--first-color);
 }
@@ -157,20 +161,7 @@ a {
   font-weight: var(--font-semi-bold);
 }
 
-/* .dropdown__usergroup {
-  padding-left: 5rem;
-  row-gap: .5rem;
-}
 
-
-.dropdown__usergroup:first-child {
-  margin-top: 1.25rem;
-}
-
-
-.dropdown__usergroup:last-child {
-  margin-bottom: 1.25rem;
-} */
 
 /* NAVEGAÇÃO PARA DISPOSITIVOS MÓVEIS */
 
